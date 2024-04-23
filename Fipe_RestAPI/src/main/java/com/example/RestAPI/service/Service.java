@@ -71,6 +71,10 @@ public class Service {
         marcaRepository.saveAll(obterMarcas());
     }
 
+//    public void salvarSimples(){
+//        marcaRepository.save(consultarMarcas());
+//    }
+
     public void atualizarMarca(MarcaEntity marca){
         marcaRepository.save(marca);
     }
